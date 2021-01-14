@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: ${environment:default}
+  application:
+    name: vuelos
+  cloud:
+    config:
+      enable: true
+      uri: http://config-service:8080
+      name: ${spring.application.name}
+      label: master
+      profile: ${spring.profiles.active}
+server:
+  port: 8081

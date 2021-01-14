@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: emmanueliv
+Build-Jdk: 15.0.1
+Implementation-Title: vuelos
+Implementation-Version: 1.1-SNAPSHOT
+Implementation-Vendor-Id: com.santander.notificaciones
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/vuelos/
+Created-By: Maven Integration for Eclipse
+
